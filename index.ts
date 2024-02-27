@@ -3,9 +3,7 @@ import path from 'path';
 import fs from 'fs';
 import {randomBytes, createHash} from 'crypto';
 import gameList from './gameList.json';
-import {config} from 'dotenv';
 
-config();
 
 const router = express();
 router.use(express.json());
